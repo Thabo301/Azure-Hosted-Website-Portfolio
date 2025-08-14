@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thabo Makhubele - Azure Administrator Portfolio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+
+    <header class="header">
+      <a href="#" class="logo"><span>Thabo Makhubele</span></a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <a href="https://github.com/Thabo301" target="_blank" rel="noopener noreferrer" class="visit-btn">Visit GitHub</a>
+    </header>
+    
+    <section class="about" id="about">
+      <div class="about-container">
+        <img src="images/profile.jpg" alt="Profile picture of Thabo Makhubele" />
+
+        <div class="info-box">
+          <div class="text">
+            <h3>Hi, I'm</h3>
+            <h1>Thabo Makhubele</h1>
+            <span>Azure Administrator | Cloud Enthusiast</span>
+          </div>
+
+          <div class="btn-group">
+            <a href="THABO-MAKHUBELE-RESUME.pdf" class="btn" download>Download CV</a>
+            <a href="#contact" class="btn">Contact</a>
+          </div>
+
+          <div class="socials">
+            <a href="https://github.com/Thabo301" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/in/thabomakhubele96" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+      <h2 class="section-title">Experience & Skills</h2>
+
+      <div class="experience-info">
+        <div class="grid">
+          <div class="grid-card">
+            <i class="fa-brands fa-microsoft"></i>
+            <span>Azure Administration</span>
+            <h3>Certified: AZ-900 & AZ-104</h3>
+            <p>Skilled in deploying, managing, and monitoring Azure resources, implementing best practices for security, networking, and cost optimization.</p>
+          </div>
+
+          <div class="grid-card">
+            <i class="fa-solid fa-cloud"></i>
+            <span>Microsoft 365</span>
+            <h3>Productivity Suite</h3>
+            <p>Proficient in Microsoft 365 services including Exchange, SharePoint, Teams, and OneDrive administration.</p>
+          </div>
+
+          <div class="grid-card">
+            <i class="fa-solid fa-code"></i>
+            <span>Web Development</span>
+            <h3>Responsive & Modern</h3>
+            <p>Experienced in building responsive websites using HTML, CSS, JavaScript, and frameworks with Azure hosting & CI/CD pipelines.</p>
+          </div>
+
+          <div class="grid-card">
+            <i class="fa-solid fa-users"></i>
+            <span>Soft Skills</span>
+            <h3>Collaboration & Business Acumen</h3>
+            <p>Excellent communication, teamwork, and problem-solving skills with a strong understanding of business needs.</p>
+          </div>
+        </div>
+
+        <img src="images/azure-banner.jpg" alt="Azure themed banner" />
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="section-title">Highlighted Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card" data-modal-target="#modal-project-1">
+          <img src="images/project1.gif" alt="Portfolio website preview">
+          <h3>Azure-Hosted Portfolio Website</h3>
+          <div class="btn-group">
+            <a href="https://thabomakhubele.cloud" target="_blank" rel="noopener noreferrer" class="btn btn-no-prop">Live Demo</a>
+            <a href="https://github.com/Thabo301/Azure-Hosted-Website-Portfolio" target="_blank" rel="noopener noreferrer" class="btn btn-no-prop">GitHub Repo</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-modal-target="#modal-project-2">
+          <img src="images/project2.gif" alt="Azure VNet & VM project preview">
+          <h3>Azure VM + VNet Project</h3>
+          <div class="btn-group">
+            <a href="https://github.com/Thabo301/Azure-VM-VNET-Project" target="_blank" rel="noopener noreferrer" class="btn btn-no-prop">GitHub Repo</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-modal-target="#modal-project-3">
+          <img src="images/project3.gif" alt="Azure Governance with IaC preview">
+          <h3>Azure Governance with IaC</h3>
+          <div class="btn-group">
+            <a href="https://github.com/Thabo301/Azure-Governance-with-IaC-" target="_blank" rel="noopener noreferrer" class="btn btn-no-prop">GitHub Repo</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Modals -->
+    <div id="modal-project-1" class="modal">
+      <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <h2>Azure-Hosted Portfolio Website</h2>
+        <p><strong>Overview:</strong> Personal portfolio deployed as an Azure Static Web App with CI/CD via GitHub Actions, custom domain, SSL, and monitoring.</p>
+        <div class="modal-section">
+          <h3>Links</h3>
+          <p><a href="https://thabomakhubele.cloud" target="_blank" rel="noopener noreferrer" class="btn">Live Demo</a>
+          <a href="https://github.com/Thabo301/Azure-Hosted-Website-Portfolio" target="_blank" rel="noopener noreferrer" class="btn">GitHub Repo</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-project-2" class="modal">
+      <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <h2>Azure VM + VNet Project</h2>
+        <p><strong>Overview:</strong> Azure environment with VNet, NSG, Bastion, Windows & Linux VMs, automated deployment using Bicep templates, and Azure Monitor alerts.</p>
+        <div class="modal-section">
+          <h3>Links</h3>
+          <p><a href="https://github.com/Thabo301/Azure-VM-VNET-Project" target="_blank" rel="noopener noreferrer" class="btn">GitHub Repo</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-project-3" class="modal">
+      <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <h2>Azure Governance with IaC</h2>
+        <p><strong>Overview:</strong> Secure, governed Azure environment using Bicep, including Key Vault, Linux VM, Public IP, NSG (SSH inbound), and Azure Policy for region restriction.</p>
+        <div class="modal-section">
+          <h3>Architecture</h3>
+          <img src="images/azure_governance_architecture.png" alt="Architecture diagram for Azure Governance with IaC" style="width:100%;border-radius:1rem;" />
+        </div>
+        <div class="modal-section">
+          <h3>Links</h3>
+          <p><a href="https://github.com/Thabo301/Azure-Governance-with-IaC" target="_blank" rel="noopener noreferrer" class="btn">GitHub Repo</a></p>
+        </div>
+      </div>
+    </div>
+
+    <section class="contact" id="contact">
+      <div class="input-box">
+        <h2 class="section-title">Contact Me</h2>
+        <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+          <div class="input">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <i class="fa-solid fa-user"></i>
+          </div>
+
+          <div class="input">
+            <input type="email" name="_replyto" placeholder="Your Email" required>
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+
+          <div class="input">
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <i class="fa-solid fa-comment"></i>
+          </div>
+
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Thabo Makhubele · <a href="https://thabomakhubele.cloud" target="_blank" rel="noopener noreferrer">thabomakhubele.cloud</a> · <a href="mailto:thabomakhubele96@gmail.com" rel="noopener noreferrer">thabomakhubele96@gmail.com</a></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
