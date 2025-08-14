@@ -1,5 +1,3 @@
-# Azure-Hosted-Website-Portfolio
-
 # Thabo Makhubele's Cloud Portfolio Website
 
 This repository hosts the code for my personal portfolio website, designed to showcase my skills in Azure administration, cloud solutions, and web development.
